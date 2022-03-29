@@ -1,0 +1,68 @@
+h1{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.body{
+    /* background-color: rgb(10, 234, 241); */
+    background-image: url("images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.btn{
+    margin-top:  15px;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 5px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(76, 76, 241);
+}
+
+
+.heading{
+    margin: 40px;
+    text-transform: lowercase;
+}
+
+.name{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 400; */
+}
+
+.name:hover{
+    color:red ;
+    background-color: darkturquoise;
+}
+.email{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px; 
+}
+
+.row{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.row2{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    justify-content: space-between;
+}
